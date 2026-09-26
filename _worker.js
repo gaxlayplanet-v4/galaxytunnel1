@@ -3,7 +3,7 @@ import { connect } from "cloudflare:sockets";
 
 // ===== Global Config (Env မရသေးခင် Default တွေ) =====
 let userID = "";
-let proxyIP = "104.28.1.10";
+let proxyIP = "blacknight.abrdns.com";
 let dohURL = "https://dns.google/dns-query";
 
 function isValidUUID(uuid) {
